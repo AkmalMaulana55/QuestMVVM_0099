@@ -28,8 +28,7 @@ fun SiswaApp(
     //edit 1 : parameter  viewModel
     modifier: Modifier,
     viewModel: SiswaViewModel = viewModel(),
-    navController: NavHostController = rememberNavController(),
-    cancelAndBackToFormulir: (NavHostController) -> Unit
+    navController: NavHostController = rememberNavController()
 ) {
     Scaffold { isiRuang->
         //edit 2 : tambahkan variabel uiState
